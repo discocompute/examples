@@ -2,7 +2,7 @@
 
 This repository contains a set of example code that showcase the core features of Dis.co. 
 
-#Getting Started
+## Getting Started
 
 Downloading the code: 
 
@@ -12,7 +12,7 @@ git clone https://github.com/discocompute/examples.git
 Then, you will be able to explore the code locally. 
 
 
-#Organization of the repository's directories
+## Organization of the repository's directories
 
 
 1. Utilites - it contains examples related to ultities functions of Dis.co
@@ -22,6 +22,6 @@ Then, you will be able to explore the code locally.
 3. Web UI - contains 
 
 
-#Available Samples
+## Available Samples
 
 
