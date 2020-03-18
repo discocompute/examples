@@ -1,17 +1,11 @@
-# Example code for Running Dis.co's Python SDK with Custom Docker Images
+# Running Python SDK with Custom Docker Images
 
-This code demonstrate how we can run a job with Dis.co's Python SDK + a custom docker image.
+This example code demonstrates how to use Dis.co's Python SDK + a custom docker image.
 
-The code got two parts.
+The example code consists of two parts.
 
-1. The Dis.co SDK demo code
-2. The custom docker build files and scripts
-
-To build the docker image, you can run the script provided.
-
-To test the solution, you have to first setup the docker image on the dis.co account, and set it as the default. 
-
-Then, you can run the main.py afterwards with the customized features provided in the docker (i.e., using an external library in this case)
+1. The source code (Python SDK usage code - main.py, Python Script - server.py, and Data file, task1.txt & task2.txt)
+2. The custom docker build files and scripts to build such. 
 
 # Install
 
@@ -24,7 +18,7 @@ python3 -m venv venv
 source venv/bin/activate
 ``` 
 
-Then, install Dis.co SDK with the following command line.
+Then, install Dis.co's Python SDK + CLI with the following command line.
 
 ```
 pip3 install disco --upgrade
@@ -62,4 +56,4 @@ pip3 install disco --upgrade
 
 4. Check the results.
 
-	We download the result back on the current directory. You should be able to see two new jpg files =)
+	The code downloads the result back on the current directory. You should be able to see two new jpg files on your local current directory. 
