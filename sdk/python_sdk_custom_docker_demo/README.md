@@ -4,7 +4,7 @@ This example code demonstrates how to use Dis.co's Python SDK + a custom docker 
 
 The example code consists of two parts.
 
-1. The source code (Python SDK usage code - main.py, Python Script - server.py, and Data file, task1.txt & task2.txt)
+1. The source code (Python SDK usage code - main.py, Python Script - server.py, and Data files - task1.txt and task2.txt)
 2. The custom docker build files and scripts to build such. 
 
 # Install
