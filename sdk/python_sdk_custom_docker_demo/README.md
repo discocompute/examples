@@ -22,7 +22,6 @@ Then, install Dis.co's Python SDK + CLI with the following command line.
 
 ```
 pip3 install disco --upgrade
-
 ```
 
 # Usage
