@@ -1,4 +1,4 @@
-# Running Python SDK with Custom Docker Images
+# Running Dis.co's Python SDK with Custom Docker Images
 
 This example code demonstrates how to use Dis.co's Python SDK + a custom docker image.
 
