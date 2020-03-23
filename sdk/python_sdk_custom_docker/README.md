@@ -8,7 +8,7 @@ The example code consists of two parts.
 	- main.py - Python SDK usage code
 	- server.py - Server side Python script 
 	- task[1-2].txt - Data(task) files
-2. The custom docker build files and scripts to build such. 
+2. The custom docker build files and scripts to build such. (See: https://github.com/discocompute/examples/tree/master/docker/default_sdk) 
 
 # Install
 
@@ -29,15 +29,15 @@ pip3 install disco --upgrade
 
 # Usage
 
-1. Run the docker build script (for the first time only)
+1. Run the docker build script (for the first time only). At the root directory.
 
 	```
-	cd docker
+	cd example/docker/default_sdk
 	sh build_docker.sh
 	```
 	This will build the Docker image locally. 
 
-2. Upload and Setup the Docker Image on Dis.co 
+2. Upload and Setup the Docker Image on Dis.co. 
 
 	Follow the instruction here, and push your docker image up according. Also, we have provided instructions in the build_docker.sh file. 
 	```
@@ -50,9 +50,10 @@ pip3 install disco --upgrade
 	https://docs.dis.co/integrations/custom-docker-images
 	```
 
-3. Run the Job
+3. Run the Job. 
 
 	```
+	cd example/sdk/python_sdk_custom_docker
 	python3 main.py
 	```
 
