@@ -32,17 +32,19 @@ pip3 install disco --upgrade
 1. Run the docker build script (for the first time only)
 
 	```
-	./build_docker.sh
+	cd docker
+	sh build_docker.sh
 	```
+	This will build the Docker image locally. 
 
 2. Upload and Setup the Docker Image on Dis.co 
 
-	Follow the instruction here, and push your docker image up according.
+	Follow the instruction here, and push your docker image up according. Also, we have provided instructions in the build_docker.sh file. 
 	```
 	https://docs.docker.com/docker-hub/repos/
 	```
 
-	And follow the instruction here to get your docker image setup on Dis.co
+	And follow the instruction here to get your docker image setup with Dis.co. 
 
 	```
 	https://docs.dis.co/integrations/custom-docker-images
@@ -54,7 +56,7 @@ pip3 install disco --upgrade
 	python3 main.py
 	```
 
-	This will prompt a selection on which Docker image to run on. Make sure you select the correct one or it won't run.
+	This will prompt a selection on which Docker image to run on. Make sure you select the default_sdk one or it won't run.
 
 4. Check the results.
 
@@ -69,4 +71,4 @@ pip3 install disco --upgrade
 	disco.core.exceptions.InvalidCredentials: Wrong email or password
 	```
 
-	*Answer*: You have to update the main.py and put in the username and password. 
+	**Answer**: Modify the main.py and update the username and password. 
