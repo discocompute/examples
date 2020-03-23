@@ -2,7 +2,7 @@
 #You can register at https://hub.docker.com/
 
 #build the docker image, will take a while and this requires internet connection.
-docker build -t disco_default -f default.dockerfile .
+docker build -t disco_default_sdk -f default.dockerfile .
 
 #run "docker images" command
 #And you will see this as expected output. 
