@@ -2,7 +2,7 @@
 
 This directory contains a set of sample scripts which utilizes Dis.co command line interface. The script finds all prime numbers within a specified range.
 
-## Setup 
+## Usage
 
 Input for this script is a file that has two numbers on its first line &mdash; a lower and upper boundary.
 
@@ -17,7 +17,7 @@ This will generate a set of text files inside the data folder.
 
 Please note that the generator is not intended to run as an DISCO job. It is intended to create the tasks files that runs in parallel on Dis.co 
 
-### Local Usage
+### Local 
 
 To test the solution locally, simply prime_finder.py with any of the generated data file. 
 ```
@@ -26,7 +26,7 @@ $ python prime_finder.py data/range1.txt
 The scripts generates 'output.txt' file that lists all the primes found in a given range. 
 The same information is also written to `stdout`.
 
-### Dis.co Usage
+### Dis.co CLI
 
 To run this on Dis.co, simply run the following command line. In this example, we will run two tasks in parallel.
 
