@@ -19,7 +19,7 @@ Please note that the generator is not intended to run as an DISCO job. It is int
 
 ### Local 
 
-To test the solution locally, simply prime_finder.py with any of the generated data file. 
+To test the solution locally, simply run prime_finder.py with any of the generated data file. 
 ```
 $ python prime_finder.py data/range1.txt
 ```
@@ -31,7 +31,7 @@ The same information is also written to `stdout`.
 To run this on Dis.co, simply run the following command line. In this example, we will run two tasks in parallel.
 
 ```
-disco job create -n "Prime Number Finder" -s prime_finder.py -i "data/range1.txt, data/range2.txt" -r
+$ disco job create -n "Prime Number Finder" -s prime_finder.py -i "data/range1.txt, data/range2.txt" -r
 
 ```
 
