@@ -59,3 +59,14 @@ pip3 install disco --upgrade
 4. Check the results.
 
 	The code downloads the result back on the current directory. You should be able to see two new jpg files on your local current directory. 
+
+
+# FAQ
+
+1. Why am I getting this error when I run the main.py script.
+
+	```
+	disco.core.exceptions.InvalidCredentials: Wrong email or password
+	```
+
+	*Answer*: You have to update the main.py and put in the username and password. 
