@@ -19,7 +19,9 @@ Then, you will be able to explore the code locally.
 
 2. SDK - it contains the functions related to SDK.
 
-3. Web UI - contains 
+3. Web UI - contains sample codes that run on the Web UI.
+
+4. Docker - contains build scripts for docker images
 
 
 ## Available Samples
