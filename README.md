@@ -57,5 +57,6 @@ disco -h
 
 
 ## Available Samples
-
-
+| Project Name.         |     Descriptions                    |
+|-----------------------|-------------------------------------|
+| Prime Number Finder   | Showcasing how we can use Dis.co CLI|
