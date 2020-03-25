@@ -59,4 +59,4 @@ disco -h
 ## Available Samples
 | Project Name.         |     Descriptions                    |
 |-----------------------|-------------------------------------|
-| Prime Number Finder   | Showcasing how we can use Dis.co CLI|
+| [Prime Number Finder](https://github.com/discocompute/examples/tree/master/cli/prime_finder) |  Showcasing how we can use Dis.co CLI|
