@@ -8,6 +8,5 @@ This directory contains a set of sample Docker images optimized for particular u
 
 You can find some of the latest pre-built Docker images from this example directory here.
 
-```
-https://hub.docker.com/u/discocompute
-```
+- [Disco's DockerHub Repository](https://hub.docker.com/u/discocompute)
+
