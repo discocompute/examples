@@ -1,7 +1,6 @@
 # Hello World
 
-This directory contains a simple script that runs Dis.co command line interface. 
-
+This directory contains a the script that runs Dis.co command line interface. 
 
 ## Usage
 
@@ -19,11 +18,11 @@ To test it locally, simply run server.py.
 ```
 $ python server.py
 ```
-You will see "Hello World" print to the stdout.
+You will see "Hello World" print out.
 
 ### Dis.co CLI
 
-To run this on Dis.co, simply run the following command line. This will upload the script to the server and run the job. 
+To run this on Dis.co, simply run the following command line. This will upload the script to the Dis.co server and run the job. 
 ```
 $ disco job create -n "Hello World" -s server.py -r
 
@@ -31,7 +30,7 @@ $ disco job create -n "Hello World" -s server.py -r
 
 ## Output
 
-Here is an sample output from the Dis.co CLI command.
+Here is an sample output from the Dis.co's CLI.
 
 ```
 Uploading server.py: 2.68kB [00:00, 8.36kB/s]                                   
@@ -39,8 +38,8 @@ Uploading server.py: 2.68kB [00:00, 8.36kB/s]
  Job 5e7d0cd513ba27000cc03d04 started
 Created job with id 5e7d0cd513ba27000cc03d04
 ```
-Notice that this will return an id. In this example, we have "5e7d0cd513ba27000cc03d04". 
-To view the job, you enter the following command along with the id.  
+Notice that this will return a job id (e.g., 5e7d0cd513ba27000cc03d04). 
+To view the job, you enter the following command along with the same job id.  
 
 ```
 $ disco job view 5e7d0cd513ba27000cc03d04
@@ -66,14 +65,13 @@ And you can download the result with this command, once it's completed (success:
 disco job download-results 5e7d0cd513ba27000cc03d04
 
 ```
-and this will prompt for the input for the path. 
+and this command will prompt you download path. 
 
 ```
 Path for result files: 
 
 ```
-Enter the path (e.g., results) and it will start downloading the file. Now our result will be inside this text file.
-
+Enter the path (e.g., results/) and it will start downloading the file. Now the result will be saved inside that folder.
 ```
 cat results/1585253669720-5e7d0cd513ba27000cc03d05/IqoqoTask.stdout.0.txt
 ```
