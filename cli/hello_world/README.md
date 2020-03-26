@@ -44,7 +44,6 @@ To view the job, you enter the following command along with the id.
 
 ```
 $ disco job view 5e7d0cd513ba27000cc03d04
-
 ```
 
 This will give the following output. 
