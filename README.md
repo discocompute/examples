@@ -13,7 +13,7 @@ Then, you will be able to explore the code locally.
 
 ### Install Dis.co: 
 
-We recommend you perform this in prior to installing Dis.co. The dependencies in your Python environment can significantly affect the performance as we will be resolving the same dependencies on all remote servers. Currently, we support Mac OSX, Linux, and Windows as long as you have the Python 3.6+ installed. For Windows users, you may want to configure a Bash to execute many of the scripts. 
+We recommend you perform this before installing Dis.co. The dependencies in your Python environment can significantly affect the performance as we will be resolving the same dependencies on all remote servers. Currently, Dis.co supports Mac OSX, Linux, and Windows with Python 3.6+ installed. For Windows users, you may want to configure Linux bash to execute many of the scripts locally. 
 
 
 ```
