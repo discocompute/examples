@@ -32,7 +32,7 @@ $ disco job create -n "Hello World" -s server.py -r
 
 Here is an sample output from the Dis.co's CLI.
 
-[Sample Output](cli.gif "Sample Output")
+![Sample Output](cli.gif "Sample Output")
 
 ```
 Uploading server.py: 2.68kB [00:00, 8.36kB/s]                                   
