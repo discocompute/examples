@@ -4,7 +4,7 @@ This repository contains a set of example code that showcase the core features o
 
 ## Getting Started
 
-### Downloading the code: 
+### Downloade the code: 
 
 ```
 git clone https://github.com/discocompute/examples.git
@@ -31,7 +31,7 @@ Now, we install the Dis.co SDK and all libraries. This also comes with the CLI i
 pip install disco --upgrade
 ```
 
-## Authentication (Login Required)
+## Login & Authentication
 
 You have to login before running any of the examples. You can obtain your login by talking to our team. To login, simply type this in the terminal and follow the on screen instructions. 
 
