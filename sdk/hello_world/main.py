@@ -1,8 +1,8 @@
 import disco
 import pathlib
 
-DISCO_EMAIL = 'ray_ifx@dis.co'
-DISCO_PASSWORD = 'impact123'
+DISCO_EMAIL = 'username@email.com'
+DISCO_PASSWORD = 'password'
 
 disco.set_credentials(DISCO_EMAIL, DISCO_PASSWORD, save_to_config=True)
 
