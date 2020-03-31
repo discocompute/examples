@@ -4,7 +4,7 @@ This repository contains a set of example code that showcase the core features o
 
 ## Getting Started
 
-### Downloade the code: 
+### Download the code: 
 
 ```
 git clone https://github.com/discocompute/examples.git
@@ -31,7 +31,7 @@ Now, we install the Dis.co SDK and all libraries. This also comes with the CLI i
 pip install disco --upgrade
 ```
 
-## Login & Authentication
+## Login & Authentication:
 
 You have to login before running any of the examples. You can obtain your login by talking to our team. To login, simply type this in the terminal and follow the on screen instructions. 
 
@@ -60,5 +60,5 @@ disco -h
 | Project Name.         |     Descriptions                    |
 |-----------------------|-------------------------------------|
 | [Prime Number Finder](https://github.com/discocompute/examples/tree/master/cli/prime_finder) |  Showcasing how we can use Dis.co CLI|
-| [Python SDK Custom Docker](https://github.com/discocompute/examples/tree/master/sdk/python_sdk_custom_docker) | Learn how to run Docker on Dis.co |
+| [Python SDK & Custom Dockers](https://github.com/discocompute/examples/tree/master/sdk/python_sdk_custom_docker) | Learn how to run custom Docker images on Dis.co |
 | Hello World | Hello world example on how to run Dis.co with CLI, Web UI, and SDK. You can find the solution in each folder. | 
