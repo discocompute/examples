@@ -1,6 +1,6 @@
 # Dis.co Example Code
 
-This repository contains a set of example code that showcase the core features of Dis.co. 
+This repository contains a set of example codes that showcase the core features of Dis.co. 
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ Then, you will be able to explore the code locally.
 
 ### Install Dis.co: 
 
-We recommend you perform this before installing Dis.co. The dependencies in your Python environment can significantly affect the performance as we will be resolving the same dependencies on all remote servers. Currently, Dis.co supports Mac OSX, Linux, and Windows with Python 3.6+ installed. For Windows users, you may want to configure Linux bash to execute many of the scripts locally. 
+We recommend you perform this step before installing Dis.co. The dependencies in your Python environment can significantly affect the performance as we will be resolving the same dependencies on all remote servers. Currently, Dis.co supports Mac OSX, Linux, and Windows with Python 3.6+ installed. For Windows users, you may want to configure Linux bash to execute the scripts locally. 
 
 
 ```
@@ -33,13 +33,13 @@ pip install disco --upgrade
 
 ## Login & Authentication:
 
-You have to login before running any of the examples. You can obtain your login by talking to our team. To login, simply type this in the terminal and follow the on screen instructions. 
+You have to login before running any of the examples. You can obtain your login by talking to our team. To login, simply type this command in the terminal and follow the on screen instructions. 
 
 ```
 disco login
 ```
 
-After successfully login, you will be able to use the Dis.co's CLI to create or run jobs. To get more info, you can type this to see the available commands. 
+After successfully login, you will be able to use the Dis.co's CLI to create or run jobs. To get more info, you can type this command to see the available commands. 
 
 ```
 disco -h 
