@@ -61,4 +61,4 @@ disco -h
 |-----------------------|-------------------------------------|
 | [Prime Number Finder](https://github.com/discocompute/examples/tree/master/cli/prime_finder) |  Showcasing how we can use Dis.co CLI|
 | [Python SDK & Custom Dockers](https://github.com/discocompute/examples/tree/master/sdk/python_sdk_custom_docker) | Learn how to run custom Docker images on Dis.co |
-| [Hello World](https://github.com/discocompute/examples/tree/master/cli/hello_world) | Hello world example on how to run Dis.co with CLI, [Web UI](https://github.com/discocompute/examples/tree/master/webui/hello_world), and [SDK](https://github.com/discocompute/examples/tree/master/sdk/hello_world). | 
+| [Hello World](https://github.com/discocompute/examples/tree/master/cli/hello_world) | Hello world example on how to run Dis.co with [CLI](https://github.com/discocompute/examples/tree/master/cli/hello_world), [Web UI](https://github.com/discocompute/examples/tree/master/webui/hello_world), and [SDK](https://github.com/discocompute/examples/tree/master/sdk/hello_world). | 
