@@ -1,4 +1,4 @@
-# Running Dis.co's Python SDK Example
+# Dis.co's Python SDK Example
 
 This example code demonstrates how to use Dis.co's Python SDK and print the first hello world.
 
