@@ -31,7 +31,7 @@ pip3 install disco --upgrade
 
 2. Check the results.
 
-	The code downloads the result back on the current directory. You should be able to see two text files on your local current directory. 
+	The code downloads the result back on the current directory. You should be able to see two text files in your local current directory, and the text "Hello World" can be found inside the stdout one. 
 
 
 # FAQ
